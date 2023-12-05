@@ -5,3 +5,14 @@
 //Calculate the whole sum for one iphone inclding VAT
 //Write a program that will calculate 30(iphones) x the whole sum including VAT
 
+let phoneSum = 119.95;
+let phoneTax = 0.05;
+
+//Using the (1 + phoneTax) I am adding 1 to the phoneTax to get the whole 100% and add the VAT of 0.05% 
+let fullPhonePrice = phoneSum + (1 + phoneTax);
+
+//Adding the value for variable price for 30phones
+let priceFor30Phones =  30 * fullPhonePrice;
+
+console.log("The whole price for 30 phones including tax is: " + priceFor30Phones + "$");
+
