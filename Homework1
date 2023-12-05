@@ -8,7 +8,7 @@
 let phoneSum = 119.95;
 let phoneTax = 0.05;
 
-//Using the (1 + phoneTax) I am adding 1 to the phoneTax to get the whole 100% and add the VAT of 0.05% 
+//Using the (1 + phoneTax) I am adding 1 to the phoneTax to get the whole 100% and add the VAT of 5% 
 let fullPhonePrice = phoneSum + (1 + phoneTax);
 
 //Adding the value for variable price for 30phones
